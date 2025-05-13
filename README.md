@@ -1,54 +1,53 @@
-# 🧠 Практические работы по Deep Learning
+# 🧠 Deep Learning Practice
 
-Данный репозиторий представляет собой собрание практических работ по курсу **«Введение в глубокое обучение»** на кафедре ММП факультета ВМК МГУ, охватывающий разнообразные аспекты DL.
-Каждая задача оформлена в виде Jupyter Notebook и содержит реализацию вместе с исследованием конкретных нейросетевых архитектур и методик.
-
----
-
-## 📁 Структура репозитория
-
-Репозиторий организован по тематическим папкам, каждая из которых посвящена определённой области или архитектуре:
-
-### [`Полносвязная нейронная сеть на numpy`](https://github.com/bulkin-anton/DL_practice/blob/main/0_nn_numpy/nn_on_numpy.ipynb)
-- Реализация нейронных сетей «с нуля» на NumPy без использования высокоуровневых фреймворков  
-- Разбор прямого и обратного распространения ошибки (forward/backpropagation)  
-- Эксперименты с различными функциями активации и способами инициализации весов  
-
-### [`Классификация изображений на основе полносвязной нейронной сети на PyTorch`](https://github.com/bulkin-anton/DL_practice/blob/main/1_nn_pytorch/nn_on_pytorch.ipynb)
-- Построение и обучение нейронных сетей с помощью PyTorch  
-- Определение моделей, функций потерь и оптимизаторов  
-- Тренировка на реальных датасетах и анализ результатов  
-
-### [`Сегментация изображений`](https://github.com/bulkin-anton/DL_practice/blob/main/2_image_segmentation/image_segmentation_nns.ipynb)
-- Задачи сегментации изображений (например, U-Net)  
-- Предобработка медицинских и других датасетов  
-- Оценка качества сегментации с метриками IoU и Dice  
-
-### [`Реккурентные нейронные сети`](https://github.com/bulkin-anton/DL_practice/blob/main/3_RNN/RNN.ipynb)
-- Рекуррентные нейронные сети (LSTM, GRU)  
-- Применение к последовательным данным: текст, временные ряды  
-- Сравнение различных архитектур и гиперпараметров  
-
-### [`Conformer для задачи денойзинга`](https://github.com/bulkin-anton/DL_practice/blob/main/5_denoising_conformer/denoising_conformer.ipynb)
-- Модель Conformer для шумоподавления в аудиосигналах  
-- Комбинация свёрточных и трансформерных блоков  
-- Обучение на шумных аудиоданных и оценка качества работы  
+This repository is a collection of practical assignments for the **“Introduction to Deep Learning”** course at the Computational Mathematics and Cybernetics Faculty (MSU CMC). It covers a variety of DL topics (from CNNs to RNNs, for example).  
+Each task is provided as a Jupyter Notebook containing both implementation and an exploration of specific neural-network architectures and methods.
 
 ---
 
-## 🛠️ Используемые технологии
+## 📁 Repository Structure
 
-- **Язык**: Python  
-- **Библиотеки**:
-  - NumPy 
-  - PyTorch 
-  - Matplotlib
-  - Librosa
+The repository is organized into thematic folders, each dedicated to a particular domain or architecture.
+
+### [`Fully-Connected Neural Network in NumPy`](https://github.com/bulkin-anton/DL_practice/blob/main/0_nn_numpy/nn_on_numpy.ipynb)
+- Building neural networks **from scratch** with NumPy, without high-level frameworks  
+- Walk-through of forward and backward propagation  
+- Experiments with different activation functions and weight-initialization strategies  
+
+### [`Image Classification with a Fully-Connected Network in PyTorch`](https://github.com/bulkin-anton/DL_practice/blob/main/1_nn_pytorch/nn_on_pytorch.ipynb)
+- Designing and training neural networks in PyTorch  
+- Defining models, loss functions, and optimizers  
+- Training on real datasets and analyzing the results  
+
+### [`Image Segmentation`](https://github.com/bulkin-anton/DL_practice/blob/main/2_image_segmentation/image_segmentation_nns.ipynb)
+- Segmentation tasks (e.g., U-Net)  
+- Pre-processing medical and other image datasets  
+- Evaluating segmentation quality with IoU and Dice metrics  
+
+### [`Recurrent Neural Networks`](https://github.com/bulkin-anton/DL_practice/blob/main/3_RNN/RNN.ipynb)
+- RNNs including LSTM and GRU  
+- Applications to sequential data: text, time series  
+- Comparing different architectures and hyperparameters  
+
+### [`Conformer for Audio Denoising`](https://github.com/bulkin-anton/DL_practice/blob/main/5_denoising_conformer/denoising_conformer.ipynb)
+- Conformer model for noise reduction in audio signals  
+- Combining convolutional and transformer blocks  
+- Training on noisy audio data and assessing performance  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Language**: Python  
+- **Libraries**:  
+  - NumPy  
+  - PyTorch  
+  - Matplotlib  
+  - Librosa  
   - OpenCV  
-- **Инструменты**:
-  - Jupyter Notebook
+- **Tools**:  
+  - Jupyter Notebook  
 
 ---
 
-Каждая практическая работа включает подробные теоретические обоснования, реализацию на Python и демонстрационные примеры применения рассмотренных методов.
-
+Each practical assignment contains detailed theoretical background, a Python implementation, and demonstration examples that showcase the methods in practice.
