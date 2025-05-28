@@ -32,7 +32,13 @@ The repository is organized into thematic folders, each dedicated to a particula
 ### [`Conformer for Audio Denoising`](https://github.com/bulkin-anton/DL_practice/blob/main/5_denoising_conformer/denoising_conformer.ipynb)
 - Conformer model for noise reduction in audio signals  
 - Combining convolutional and transformer blocks  
-- Training on noisy audio data and assessing performance  
+- Training on noisy audio data and assessing performance
+
+### [`pi-GAN for 3D Car Images Generation`](https://github.com/bulkin-anton/DL_practice/blob/main/6_pi-GAN_for_3D_car_generation/task-05-bulkin-final.ipynb)
+- Implementation of pi-GAN: a generative model with periodic activations for 3D conscious image generation.
+- Training on a set of images of cars using neural radiation fields and volumetric rendering.
+- Visualization of the generation results and comparison with the original pi-GAN implementation.
+- Analysis of the generation quality and model capabilities in the context of 3D conscious image synthesis.
 
 ---
 
