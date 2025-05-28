@@ -56,4 +56,4 @@ The repository is organized into thematic folders, each dedicated to a particula
 
 ---
 
-Each practical assignment contains detailed theoretical background, a Python implementation, and demonstration examples that showcase the methods in practice.
+> **Each practical assignment contains detailed theoretical background, a Python implementation, and demonstration examples that showcase the methods in practice.**
